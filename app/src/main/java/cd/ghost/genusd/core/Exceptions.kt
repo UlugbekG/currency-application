@@ -11,3 +11,5 @@ class NoConnection : AppException()
 class BackendException(
     cause: Throwable?,
 ) : AppException(cause = cause)
+
+class NoDataException : AppException()

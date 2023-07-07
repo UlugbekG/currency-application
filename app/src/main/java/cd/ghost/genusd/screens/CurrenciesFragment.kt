@@ -24,7 +24,7 @@ class CurrenciesFragment : Fragment(R.layout.fragment_currencies) {
     private val viewModel by screenViewModel<CurrenciesViewModel> {
         CurrenciesViewModel(
             repository = RepositoryProvider.repository,
-            context = requireContext()
+            resources = RepositoryProvider.resources
         )
     }
     private lateinit var adapter: RecyclerAdapter

@@ -1,17 +1,17 @@
 package cd.ghost.genusd.screens
 
-import android.content.Context
+import android.annotation.SuppressLint
 import cd.ghost.genusd.R
-import cd.ghost.genusd.core.BackendException
 import cd.ghost.genusd.core.BaseViewModel
-import cd.ghost.genusd.core.NoConnection
+import cd.ghost.genusd.core.NoDataException
+import cd.ghost.genusd.core.Resources
 import cd.ghost.genusd.data.model.Currency
 import cd.ghost.genusd.data.repository.Repository
 import kotlinx.coroutines.flow.MutableStateFlow
 
 class CurrenciesViewModel(
     private val repository: Repository,
-    private val context: Context
+    private val resources: Resources
 ) : BaseViewModel() {
 
     private val _state = MutableStateFlow<State>(UiState())
@@ -39,17 +39,18 @@ class CurrenciesViewModel(
         )
     }
 
+    @SuppressLint("ResourceType")
     private fun setError(throwable: Throwable) {
         when (throwable) {
-            is NoConnection -> {
+            is NoDataException -> {
                 _state.value = _state.value.copy(
-                    errorMessage = context.getString(R.string.no_cennection)
+                    errorMessage = resources.getString(R.string.no_data)
                 )
             }
 
-            is BackendException -> {
+            else -> {
                 _state.value = _state.value.copy(
-                    errorMessage = context.getString(R.string.sth_went_wrong)
+                    errorMessage = resources.getString(R.string.sth_went_wrong)
                 )
             }
         }

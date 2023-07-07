@@ -10,6 +10,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        RepositoryProvider.init(this)
+
         supportFragmentManager
             .beginTransaction()
             .replace(R.id.fragmentContainer, CurrenciesFragment())
