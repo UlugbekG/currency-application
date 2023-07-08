@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">GenUSD</string>
+    <string name="app_name">Valyutalar kursi</string>
     <string name="no_connection">No internet connection!</string>
     <string name="central_bank_rate">Central bank rate</string>
     <string name="sth_went_wrong">Something went wrong.</string>

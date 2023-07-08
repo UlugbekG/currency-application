@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Toast
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.FragmentTransaction
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
@@ -67,9 +68,13 @@ class CurrenciesFragment : Fragment(R.layout.fragment_currencies) {
     }
 
     private fun onItemClick(item: Currency) {
-        ExchangeFragment
-            .newInstance(item)
-            .show(parentFragmentManager, item.code)
+        val fragment = ExchangeFragment.newInstance(item)
+        parentFragmentManager
+            .beginTransaction()
+            .add(R.id.fragmentContainer, fragment, item.code)
+            .addToBackStack(item.code)
+            .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE)
+            .commit()
     }
 
     private fun showErrors(message: String?) {

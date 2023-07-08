@@ -2,6 +2,7 @@ package cd.ghost.genusd.data.model
 
 import cd.ghost.genusd.data.database.CurrencyEntity
 import com.google.gson.annotations.SerializedName
+import java.io.Serializable
 
 data class Currency(
     @SerializedName("Ccy") val ccy: String,
