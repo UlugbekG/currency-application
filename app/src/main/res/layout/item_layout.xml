@@ -3,85 +3,103 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="?attr/selectableItemBackground"
-    android:divider="@color/black"
-    android:gravity="center"
-    android:orientation="horizontal">
-
-    <TextView
-        android:id="@+id/tvDiff"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="end"
-        android:textSize="18sp"
-        android:layout_margin="18dp"
-        android:textStyle="bold"
-        tools:text="12.000" />
+    android:background="?attr/selectableItemBackground">
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="horizontal">
 
-        <TextView
-            android:id="@+id/tvShortName"
-            android:layout_width="match_parent"
+        <LinearLayout
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:ellipsize="end"
-            android:maxLines="1"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            tools:text="UZS" />
+            android:layout_margin="16dp"
+            android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/tvFullName"
-            android:layout_width="match_parent"
+            <TextView
+                android:id="@+id/tvShortName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:text="UZS" />
+
+            <TextView
+                android:id="@+id/tvFullName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textSize="16sp"
+                android:textStyle="italic"
+                tools:text="Uzbek somi" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:ellipsize="end"
-            android:maxLines="1"
-            android:textSize="18sp"
-            android:textStyle="italic"
-            tools:text="Uzbek somi" />
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                tools:ignore="NestedWeights">
+
+                <TextView
+                    android:id="@+id/tvRate"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="end"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    tools:ignore="NestedWeights"
+                    tools:text="12.000" />
+
+                <Space
+                    android:layout_width="8dp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/tvDiff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="12sp"
+                    tools:text="12.000" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="4dp" />
+
+            <TextView
+                android:id="@+id/tvLastUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="end"
+                android:maxLines="1"
+                android:textSize="12sp"
+                tools:text="22.03.23" />
+
+        </LinearLayout>
 
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_margin="12dp"
-        android:layout_weight="1"
-        android:orientation="vertical">
-
-
-        <TextView
-            android:id="@+id/tvRate"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="end"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            tools:text="12.000" />
-
-
-        <TextView
-            android:id="@+id/tvNominalRate"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ellipsize="end"
-            android:gravity="end"
-            android:maxLines="1"
-            android:textSize="18sp"
-            tools:text="1 USD = 12.000 UZS" />
-
-        <TextView
-            android:id="@+id/tvLastUpdate"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ellipsize="end"
-            android:gravity="end"
-            android:maxLines="1"
-            android:textSize="18sp" />
-
-    </LinearLayout>
 
 </LinearLayout>

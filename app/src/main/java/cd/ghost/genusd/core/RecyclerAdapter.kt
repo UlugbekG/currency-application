@@ -32,12 +32,11 @@ class RecyclerAdapter(
 
                 tvRate.text = item.rate
 
-                tvNominalRate.text =
-                    "${item.nominal} ${item.ccy} = ${item.rate} UZS"
-
                 tvLastUpdate.text = item.date
 
-                tvDiff.text = item.diff
+                tvDiff.text =
+                    if (item.diff.toDouble() >= 0) "+${item.diff}"
+                    else item.diff
 
                 tvDiff.setTextColor(
                     if (item.diff.toDouble() >= 0) Color.parseColor("#50A339")
