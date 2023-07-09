@@ -29,6 +29,7 @@ class ExchangeView @JvmOverloads constructor(
     private var uzCcy: String = ""
     private var sCcy: String = ""
 
+
     init {
         val inflater = LayoutInflater.from(context)
         binding = ViewExchangeBinding.inflate(inflater, this, false)
