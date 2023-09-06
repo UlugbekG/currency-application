@@ -59,6 +59,7 @@ class CurrenciesFragment : Fragment(R.layout.fragment_currencies) {
         lifecycleScope.launch {
             lifecycle.repeatOnLifecycle(Lifecycle.State.RESUMED) {
                 viewModel.state.collectLatest {
+                    println(it.list.size)
                     adapter.submitList(it.list)
                     binding.swiperefresh.isRefreshing = it.isInProgress
                     showErrors(it.getErrorMessage())
