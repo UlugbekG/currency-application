@@ -29,6 +29,7 @@ data class Currency(
         diff = this.diff,
         nominal = this.nominal,
         rate = this.rate,
-        id = this.id
+        id = this.id,
+        iconByte = null
     )
 }

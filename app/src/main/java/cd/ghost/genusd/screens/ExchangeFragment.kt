@@ -12,6 +12,7 @@ import cd.ghost.genusd.core.screenViewModel
 import cd.ghost.genusd.core.serializable
 import cd.ghost.genusd.core.viewBinding
 import cd.ghost.genusd.data.model.Currency
+import cd.ghost.genusd.data.model.CurrencyModel
 import cd.ghost.genusd.databinding.FragmentExchangeBinding
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch
@@ -21,10 +22,10 @@ class ExchangeFragment : DialogFragment(R.layout.fragment_exchange) {
 
     private val binding by viewBinding<FragmentExchangeBinding>()
     private val viewModel by screenViewModel { ExchangeViewModel() }
-    private var currency: Currency? = null
+    private var currency: CurrencyModel? = null
 
     class ExchangeData(
-        val data: Currency
+        val data: CurrencyModel
     ) : Serializable
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -82,7 +83,7 @@ class ExchangeFragment : DialogFragment(R.layout.fragment_exchange) {
 
     companion object {
         const val ARG_1 = "EXCHANGE_ARG_1"
-        fun newInstance(data: Currency) = ExchangeFragment()
+        fun newInstance(data: CurrencyModel) = ExchangeFragment()
             .apply {
                 arguments = bundleOf(ARG_1 to ExchangeData(data))
             }

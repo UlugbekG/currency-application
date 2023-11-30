@@ -9,12 +9,12 @@ import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
 import androidx.recyclerview.widget.LinearLayoutManager
+import cd.ghost.genusd.DependencyProvider
 import cd.ghost.genusd.R
-import cd.ghost.genusd.RepositoryProvider
-import cd.ghost.genusd.core.RecyclerAdapter
 import cd.ghost.genusd.core.screenViewModel
 import cd.ghost.genusd.core.viewBinding
 import cd.ghost.genusd.data.model.Currency
+import cd.ghost.genusd.data.model.CurrencyModel
 import cd.ghost.genusd.databinding.FragmentCurrenciesBinding
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch
@@ -22,10 +22,10 @@ import kotlinx.coroutines.launch
 class CurrenciesFragment : Fragment(R.layout.fragment_currencies) {
 
     private val binding by viewBinding<FragmentCurrenciesBinding>()
-    private val viewModel by screenViewModel<CurrenciesViewModel> {
+    private val viewModel by screenViewModel {
         CurrenciesViewModel(
-            repository = RepositoryProvider.repository,
-            resources = RepositoryProvider.resources
+            repository = DependencyProvider.repository,
+            resources = DependencyProvider.resources
         )
     }
     private lateinit var adapter: RecyclerAdapter
@@ -43,9 +43,21 @@ class CurrenciesFragment : Fragment(R.layout.fragment_currencies) {
     }
 
     private fun setupListeners() {
-        binding.swiperefresh.setOnRefreshListener {
-            viewModel.getCurrencies()
+        binding.apply {
+            swiperefresh.setOnRefreshListener {
+                viewModel.getCurrencies()
+            }
+            btnSearch.setOnClickListener {
+                val fragment = SearchFragment()
+                parentFragmentManager
+                    .beginTransaction()
+                    .replace(R.id.fragmentContainer, fragment, fragment.javaClass.name)
+                    .addToBackStack(fragment.javaClass.name)
+                    .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE)
+                    .commit()
+            }
         }
+
     }
 
     private fun setupRecyclerAdapter() {
@@ -59,7 +71,6 @@ class CurrenciesFragment : Fragment(R.layout.fragment_currencies) {
         lifecycleScope.launch {
             lifecycle.repeatOnLifecycle(Lifecycle.State.RESUMED) {
                 viewModel.state.collectLatest {
-                    println(it.list.size)
                     adapter.submitList(it.list)
                     binding.swiperefresh.isRefreshing = it.isInProgress
                     showErrors(it.getErrorMessage())
@@ -68,7 +79,7 @@ class CurrenciesFragment : Fragment(R.layout.fragment_currencies) {
         }
     }
 
-    private fun onItemClick(item: Currency) {
+    private fun onItemClick(item: CurrencyModel) {
         val fragment = ExchangeFragment.newInstance(item)
         parentFragmentManager
             .beginTransaction()

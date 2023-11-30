@@ -13,3 +13,6 @@ class BackendException(
 ) : AppException(cause = cause)
 
 class NoDataException : AppException()
+
+
+class QueryWasEmptyException() : AppException()

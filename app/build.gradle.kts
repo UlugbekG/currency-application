@@ -58,6 +58,8 @@ dependencies {
 
     implementation(libs.retrofit)
     implementation(libs.converter.gson)
+    implementation(libs.glide)
+    kapt(libs.glide.kapt)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.test.ext.junit)

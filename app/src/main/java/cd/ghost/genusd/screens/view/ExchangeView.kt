@@ -7,8 +7,13 @@ import android.text.TextWatcher
 import android.util.AttributeSet
 import android.view.LayoutInflater
 import android.widget.LinearLayout
+import cd.ghost.genusd.R
 import cd.ghost.genusd.data.model.Currency
+import cd.ghost.genusd.data.model.CurrencyModel
 import cd.ghost.genusd.databinding.ViewExchangeBinding
+import com.bumptech.glide.Glide
+import com.bumptech.glide.load.resource.bitmap.CenterCrop
+import com.bumptech.glide.load.resource.bitmap.RoundedCorners
 
 typealias TextListener = (String?) -> Unit
 
@@ -20,7 +25,7 @@ class ExchangeView @JvmOverloads constructor(
 ) : LinearLayout(context, attrs, defStyleAttr, defStyleRes) {
 
     private var binding: ViewExchangeBinding
-    private var currency: Currency? = null
+    private var currency: CurrencyModel? = null
     private var sCcyListener: TextListener? = null
     private var uzCcyListener: TextListener? = null
     private var onCancel: (() -> Unit)? = null
@@ -61,7 +66,7 @@ class ExchangeView @JvmOverloads constructor(
         onCancel = block
     }
 
-    fun setData(currency: Currency?) {
+    fun setData(currency: CurrencyModel?) {
         this.currency = currency
 
         setupListeners()
@@ -70,6 +75,11 @@ class ExchangeView @JvmOverloads constructor(
             tvShortName.text = currency?.ccy
             tvRate.text = currency?.rate
             tvDiff.text = currency?.diff
+            Glide.with(root.context)
+                .load(currency?.flagIcon)
+                .placeholder(R.drawable.fla_placeholder)
+                .transform(CenterCrop(), RoundedCorners(12))
+                .into(ivFlag)
             tvLastUpdate.text = currency?.date
             tvFullName.text = currency?.ccyNmUZ
             tvCcy.text = currency?.ccy

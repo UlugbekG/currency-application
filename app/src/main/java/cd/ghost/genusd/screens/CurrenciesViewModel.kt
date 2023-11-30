@@ -1,18 +1,22 @@
 package cd.ghost.genusd.screens
 
 import android.annotation.SuppressLint
+import android.util.Log
 import cd.ghost.genusd.R
 import cd.ghost.genusd.core.BaseViewModel
 import cd.ghost.genusd.core.NoDataException
 import cd.ghost.genusd.core.Resources
 import cd.ghost.genusd.data.model.Currency
-import cd.ghost.genusd.data.repository.Repository
+import cd.ghost.genusd.data.model.CurrencyModel
+import cd.ghost.genusd.data.repository.CurrenciesRepository
 import kotlinx.coroutines.flow.MutableStateFlow
 
 class CurrenciesViewModel(
-    private val repository: Repository,
+    private val repository: CurrenciesRepository,
     private val resources: Resources
 ) : BaseViewModel() {
+
+    private val TAG = "CurrenciesViewModel"
 
     private val _state = MutableStateFlow<State>(UiState())
     val state = _state.asStateFlow()
@@ -27,7 +31,7 @@ class CurrenciesViewModel(
             )
     }
 
-    private fun setResult(list: List<Currency>) {
+    private fun setResult(list: List<CurrencyModel>) {
         _state.value = _state.value.copy(
             list = list
         )
@@ -41,6 +45,7 @@ class CurrenciesViewModel(
 
     @SuppressLint("ResourceType")
     private fun setError(throwable: Throwable) {
+        Log.e(TAG, "setError: ", throwable)
         when (throwable) {
             is NoDataException -> {
                 _state.value = _state.value.copy(
@@ -57,7 +62,7 @@ class CurrenciesViewModel(
     }
 
     class UiState(
-        override val list: List<Currency> = listOf(),
+        override val list: List<CurrencyModel> = listOf(),
         override val isInProgress: Boolean = false,
         errorMessage: String? = null
     ) : State {
@@ -69,7 +74,7 @@ class CurrenciesViewModel(
         }
 
         override fun copy(
-            list: List<Currency>,
+            list: List<CurrencyModel>,
             isInProgress: Boolean,
             errorMessage: String?
         ): State = UiState(
@@ -81,12 +86,12 @@ class CurrenciesViewModel(
     }
 
     interface State {
-        val list: List<Currency>
+        val list: List<CurrencyModel>
         val isInProgress: Boolean
         fun getErrorMessage(): String?
 
         fun copy(
-            list: List<Currency> = this.list,
+            list: List<CurrencyModel> = this.list,
             isInProgress: Boolean = this.isInProgress,
             errorMessage: String? = this.getErrorMessage()
         ): State
