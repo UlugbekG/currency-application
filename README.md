@@ -2,7 +2,7 @@
 
 <!-- Large Image -->
 <div align="center">
-  <img src="https://github.com/UlugbekG/currency-application/blob/main/src/preview-1.png" />
+  <img src="https://github.com/UlugbekG/currency-application/blob/main/src/preview-1.png"   width="50%"/>
 </div>
 
 <div align="center">
