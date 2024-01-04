@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\For work\Android rl projects\CurrencyApp\app\src\main\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\For work\Android rl projects\CurrencyApp\app\src\main\res"><file name="back" path="D:\For work\Android rl projects\CurrencyApp\app\src\main\res\drawable\back.xml" qualifiers="" type="drawable"/><file name="fla_placeholder" path="D:\For work\Android rl projects\CurrencyApp\app\src\main\res\drawable\fla_placeholder.png" qualifiers="" type="drawable"/><file name="ic_close_24" path="D:\For work\Android rl projects\CurrencyApp\app\src\main\res\drawable\ic_close_24.xml" qualifiers="" type="drawable"/><file name="ic_launcher_background" path="D:\For work\Android rl projects\CurrencyApp\app\src\main\res\drawable\ic_launcher_background.xml" qualifiers="" type="drawable"/><file name="ic_launcher_foreground" path="D:\For work\Android rl projects\CurrencyApp\app\src\main\res\drawable\ic_launcher_foreground.xml" qualifiers="" type="drawable"/><file name="ic_search_24" path="D:\For work\Android rl projects\CurrencyApp\app\src\main\res\drawable\ic_search_24.xml" qualifiers="" type="drawable"/><file name="ic_sync_24" path="D:\For work\Android rl projects\CurrencyApp\app\src\main\res\drawable\ic_sync_24.xml" qualifiers="" type="drawable"/><file name="activity_main" path="D:\For work\Android rl projects\CurrencyApp\app\src\main\res\layout\activity_main.xml" qualifiers="" type="layout"/><file name="fragment_currencies" path="D:\For work\Android rl projects\CurrencyApp\app\src\main\res\layout\fragment_currencies.xml" qualifiers="" type="layout"/><file name="fragment_exchange" path="D:\For work\Android rl projects\CurrencyApp\app\src\main\res\layout\fragment_exchange.xml" qualifiers="" type="layout"/><file name="fragment_search" path="D:\For work\Android rl projects\CurrencyApp\app\src\main\res\layout\fragment_search.xml" qualifiers="" type="layout"/><file name="item_layout" path="D:\For work\Android rl projects\CurrencyApp\app\src\main\res\layout\item_layout.xml" qualifiers="" type="layout"/><file name="view_exchange" path="D:\For work\Android rl projects\CurrencyApp\app\src\main\res\layout\view_exchange.xml" qualifiers="" type="layout"/><file name="ic_launcher" path="D:\For work\Android rl projects\CurrencyApp\app\src\main\res\mipmap-anydpi-v26\ic_launcher.xml" qualifiers="anydpi-v26" type="mipmap"/><file name="ic_launcher_round" path="D:\For work\Android rl projects\CurrencyApp\app\src\main\res\mipmap-anydpi-v26\ic_launcher_round.xml" qualifiers="anydpi-v26" type="mipmap"/><file name="ic_launcher" path="D:\For work\Android rl projects\CurrencyApp\app\src\main\res\mipmap-hdpi\ic_launcher.webp" qualifiers="hdpi-v4" type="mipmap"/><file name="ic_launcher_foreground" path="D:\For work\Android rl projects\CurrencyApp\app\src\main\res\mipmap-hdpi\ic_launcher_foreground.webp" qualifiers="hdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="D:\For work\Android rl projects\CurrencyApp\app\src\main\res\mipmap-hdpi\ic_launcher_round.webp" qualifiers="hdpi-v4" type="mipmap"/><file name="ic_launcher" path="D:\For work\Android rl projects\CurrencyApp\app\src\main\res\mipmap-mdpi\ic_launcher.webp" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_launcher_foreground" path="D:\For work\Android rl projects\CurrencyApp\app\src\main\res\mipmap-mdpi\ic_launcher_foreground.webp" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="D:\For work\Android rl projects\CurrencyApp\app\src\main\res\mipmap-mdpi\ic_launcher_round.webp" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_launcher" path="D:\For work\Android rl projects\CurrencyApp\app\src\main\res\mipmap-xhdpi\ic_launcher.webp" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_launcher_foreground" path="D:\For work\Android rl projects\CurrencyApp\app\src\main\res\mipmap-xhdpi\ic_launcher_foreground.webp" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="D:\For work\Android rl projects\CurrencyApp\app\src\main\res\mipmap-xhdpi\ic_launcher_round.webp" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_launcher" path="D:\For work\Android rl projects\CurrencyApp\app\src\main\res\mipmap-xxhdpi\ic_launcher.webp" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_launcher_foreground" path="D:\For work\Android rl projects\CurrencyApp\app\src\main\res\mipmap-xxhdpi\ic_launcher_foreground.webp" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="D:\For work\Android rl projects\CurrencyApp\app\src\main\res\mipmap-xxhdpi\ic_launcher_round.webp" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_launcher" path="D:\For work\Android rl projects\CurrencyApp\app\src\main\res\mipmap-xxxhdpi\ic_launcher.webp" qualifiers="xxxhdpi-v4" type="mipmap"/><file name="ic_launcher_foreground" path="D:\For work\Android rl projects\CurrencyApp\app\src\main\res\mipmap-xxxhdpi\ic_launcher_foreground.webp" qualifiers="xxxhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="D:\For work\Android rl projects\CurrencyApp\app\src\main\res\mipmap-xxxhdpi\ic_launcher_round.webp" qualifiers="xxxhdpi-v4" type="mipmap"/><file path="D:\For work\Android rl projects\CurrencyApp\app\src\main\res\values\colors.xml" qualifiers=""><color name="seed">#65CE58</color><color name="md_theme_light_primary">#006E09</color><color name="md_theme_light_onPrimary">#FFFFFF</color><color name="md_theme_light_primaryContainer">#8FFB7E</color><color name="md_theme_light_onPrimaryContainer">#002201</color><color name="md_theme_light_secondary">#53634E</color><color name="md_theme_light_onSecondary">#FFFFFF</color><color name="md_theme_light_secondaryContainer">#D7E8CD</color><color name="md_theme_light_onSecondaryContainer">#121F0F</color><color name="md_theme_light_tertiary">#386569</color><color name="md_theme_light_onTertiary">#FFFFFF</color><color name="md_theme_light_tertiaryContainer">#BCEBEF</color><color name="md_theme_light_onTertiaryContainer">#002022</color><color name="md_theme_light_error">#BA1A1A</color><color name="md_theme_light_errorContainer">#FFDAD6</color><color name="md_theme_light_onError">#FFFFFF</color><color name="md_theme_light_onErrorContainer">#410002</color><color name="md_theme_light_background">#FCFDF6</color><color name="md_theme_light_onBackground">#1A1C18</color><color name="md_theme_light_surface">#FCFDF6</color><color name="md_theme_light_onSurface">#1A1C18</color><color name="md_theme_light_surfaceVariant">#DFE4D8</color><color name="md_theme_light_onSurfaceVariant">#42493F</color><color name="md_theme_light_outline">#73796E</color><color name="md_theme_light_inverseOnSurface">#F1F1EB</color><color name="md_theme_light_inverseSurface">#2F312D</color><color name="md_theme_light_inversePrimary">#74DE65</color><color name="md_theme_light_shadow">#000000</color><color name="md_theme_light_surfaceTint">#006E09</color><color name="md_theme_light_outlineVariant">#C2C8BC</color><color name="md_theme_light_scrim">#000000</color><color name="md_theme_dark_primary">#74DE65</color><color name="md_theme_dark_onPrimary">#003A02</color><color name="md_theme_dark_primaryContainer">#005305</color><color name="md_theme_dark_onPrimaryContainer">#8FFB7E</color><color name="md_theme_dark_secondary">#BBCCB2</color><color name="md_theme_dark_onSecondary">#263422</color><color name="md_theme_dark_secondaryContainer">#3C4B37</color><color name="md_theme_dark_onSecondaryContainer">#D7E8CD</color><color name="md_theme_dark_tertiary">#A0CFD2</color><color name="md_theme_dark_onTertiary">#00373A</color><color name="md_theme_dark_tertiaryContainer">#1E4D51</color><color name="md_theme_dark_onTertiaryContainer">#BCEBEF</color><color name="md_theme_dark_error">#FFB4AB</color><color name="md_theme_dark_errorContainer">#93000A</color><color name="md_theme_dark_onError">#690005</color><color name="md_theme_dark_onErrorContainer">#FFDAD6</color><color name="md_theme_dark_background">#1A1C18</color><color name="md_theme_dark_onBackground">#E2E3DD</color><color name="md_theme_dark_surface">#1A1C18</color><color name="md_theme_dark_onSurface">#E2E3DD</color><color name="md_theme_dark_surfaceVariant">#42493F</color><color name="md_theme_dark_onSurfaceVariant">#C2C8BC</color><color name="md_theme_dark_outline">#8D9387</color><color name="md_theme_dark_inverseOnSurface">#1A1C18</color><color name="md_theme_dark_inverseSurface">#E2E3DD</color><color name="md_theme_dark_inversePrimary">#006E09</color><color name="md_theme_dark_shadow">#000000</color><color name="md_theme_dark_surfaceTint">#74DE65</color><color name="md_theme_dark_outlineVariant">#42493F</color><color name="md_theme_dark_scrim">#000000</color><color name="icon_color">#000000</color></file><file path="D:\For work\Android rl projects\CurrencyApp\app\src\main\res\values\ic_launcher_background.xml" qualifiers=""><color name="ic_launcher_background">#3480EB</color></file><file path="D:\For work\Android rl projects\CurrencyApp\app\src\main\res\values\strings.xml" qualifiers=""><string name="app_name">Valyutalar kursi</string><string name="no_connection">No internet connection!</string><string name="central_bank_rate">Central bank rate</string><string name="sth_went_wrong">Something went wrong.</string><string name="sth_went_wrong_uz">Xatolik yuz berdi qaytadan urinib ko\'ring.</string><string name="hello_blank_fragment">Hello blank fragment</string><string name="no_data">There is no data, please try again</string><string name="close">close</string><string name="sync">sync</string><string name="search">Search</string><string name="search_uz">Qidirish</string><string name="clear">Clear</string></file><file path="D:\For work\Android rl projects\CurrencyApp\app\src\main\res\values\themes.xml" qualifiers=""><style name="AppTheme" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/md_theme_light_primary</item>
+
+        <item name="colorOnPrimary">@color/md_theme_light_onPrimary</item>
+
+        <item name="colorPrimaryContainer">@color/md_theme_light_primaryContainer</item>
+
+        <item name="colorOnPrimaryContainer">@color/md_theme_light_onPrimaryContainer</item>
+
+        <item name="colorSecondary">@color/md_theme_light_secondary</item>
+
+        <item name="colorOnSecondary">@color/md_theme_light_onSecondary</item>
+
+        <item name="colorSecondaryContainer">@color/md_theme_light_secondaryContainer</item>
+
+        <item name="colorOnSecondaryContainer">@color/md_theme_light_onSecondaryContainer</item>
+
+        <item name="colorTertiary">@color/md_theme_light_tertiary</item>
+
+        <item name="colorOnTertiary">@color/md_theme_light_onTertiary</item>
+
+        <item name="colorTertiaryContainer">@color/md_theme_light_tertiaryContainer</item>
+
+        <item name="colorOnTertiaryContainer">@color/md_theme_light_onTertiaryContainer</item>
+
+        <item name="colorError">@color/md_theme_light_error</item>
+
+        <item name="colorErrorContainer">@color/md_theme_light_errorContainer</item>
+
+        <item name="colorOnError">@color/md_theme_light_onError</item>
+
+        <item name="colorOnErrorContainer">@color/md_theme_light_onErrorContainer</item>
+
+        <item name="android:colorBackground">@color/md_theme_light_background</item>
+
+        <item name="colorOnBackground">@color/md_theme_light_onBackground</item>
+
+        <item name="colorSurface">@color/md_theme_light_surface</item>
+
+        <item name="colorOnSurface">@color/md_theme_light_onSurface</item>
+
+        <item name="colorSurfaceVariant">@color/md_theme_light_surfaceVariant</item>
+
+        <item name="colorOnSurfaceVariant">@color/md_theme_light_onSurfaceVariant</item>
+
+        <item name="colorOutline">@color/md_theme_light_outline</item>
+
+        <item name="colorOnSurfaceInverse">@color/md_theme_light_inverseOnSurface</item>
+
+        <item name="colorSurfaceInverse">@color/md_theme_light_inverseSurface</item>
+
+        <item name="colorPrimaryInverse">@color/md_theme_light_inversePrimary</item>
+        <item name="android:statusBarColor">@color/md_theme_light_onPrimary</item>
+        <item name="android:navigationBarColor">@color/md_theme_light_onPrimary</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style></file><file path="D:\For work\Android rl projects\CurrencyApp\app\src\main\res\values-night\colors.xml" qualifiers="night-v8"><color name="icon_color">#ffffff</color></file><file path="D:\For work\Android rl projects\CurrencyApp\app\src\main\res\values-night\themes.xml" qualifiers="night-v8"><style name="AppTheme" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/md_theme_dark_primary</item>
+
+        <item name="colorOnPrimary">@color/md_theme_dark_onPrimary</item>
+
+        <item name="colorPrimaryContainer">@color/md_theme_dark_primaryContainer</item>
+
+        <item name="colorOnPrimaryContainer">@color/md_theme_dark_onPrimaryContainer</item>
+
+        <item name="colorSecondary">@color/md_theme_dark_secondary</item>
+
+        <item name="colorOnSecondary">@color/md_theme_dark_onSecondary</item>
+
+        <item name="colorSecondaryContainer">@color/md_theme_dark_secondaryContainer</item>
+
+        <item name="colorOnSecondaryContainer">@color/md_theme_dark_onSecondaryContainer</item>
+
+        <item name="colorTertiary">@color/md_theme_dark_tertiary</item>
+
+        <item name="colorOnTertiary">@color/md_theme_dark_onTertiary</item>
+
+        <item name="colorTertiaryContainer">@color/md_theme_dark_tertiaryContainer</item>
+
+        <item name="colorOnTertiaryContainer">@color/md_theme_dark_onTertiaryContainer</item>
+
+        <item name="colorError">@color/md_theme_dark_error</item>
+
+        <item name="colorErrorContainer">@color/md_theme_dark_errorContainer</item>
+
+        <item name="colorOnError">@color/md_theme_dark_onError</item>
+
+        <item name="colorOnErrorContainer">@color/md_theme_dark_onErrorContainer</item>
+
+        <item name="android:colorBackground">@color/md_theme_dark_background</item>
+
+        <item name="colorOnBackground">@color/md_theme_dark_onBackground</item>
+
+        <item name="colorSurface">@color/md_theme_dark_surface</item>
+
+        <item name="colorOnSurface">@color/md_theme_dark_onSurface</item>
+
+        <item name="colorSurfaceVariant">@color/md_theme_dark_surfaceVariant</item>
+
+        <item name="colorOnSurfaceVariant">@color/md_theme_dark_onSurfaceVariant</item>
+
+        <item name="colorOutline">@color/md_theme_dark_outline</item>
+
+        <item name="colorOnSurfaceInverse">@color/md_theme_dark_inverseOnSurface</item>
+
+        <item name="colorSurfaceInverse">@color/md_theme_dark_inverseSurface</item>
+
+        <item name="colorPrimaryInverse">@color/md_theme_dark_inversePrimary</item>
+        <item name="android:statusBarColor">@color/md_theme_dark_surface</item>
+        <item name="android:navigationBarColor">@color/md_theme_dark_surface</item>
+    </style></file><file name="backup_rules" path="D:\For work\Android rl projects\CurrencyApp\app\src\main\res\xml\backup_rules.xml" qualifiers="" type="xml"/><file name="data_extraction_rules" path="D:\For work\Android rl projects\CurrencyApp\app\src\main\res\xml\data_extraction_rules.xml" qualifiers="" type="xml"/></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="release$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\For work\Android rl projects\CurrencyApp\app\src\release\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="release" generated-set="release$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\For work\Android rl projects\CurrencyApp\app\src\release\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\For work\Android rl projects\CurrencyApp\app\build\generated\res\resValues\release"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated" generated-set="generated$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\For work\Android rl projects\CurrencyApp\app\build\generated\res\resValues\release"/></dataSet><mergedItems/></merger>

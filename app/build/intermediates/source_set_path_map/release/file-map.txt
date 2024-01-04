@@ -1,0 +1,46 @@
+cd.ghost.genusd.app-lifecycle-runtime-ktx-2.6.1-0 C:\Users\Ulugbek\.gradle\caches\transforms-3\013db3bb721b85149a0fe6abedf20636\transformed\lifecycle-runtime-ktx-2.6.1\res
+cd.ghost.genusd.app-lifecycle-viewmodel-ktx-2.6.1-1 C:\Users\Ulugbek\.gradle\caches\transforms-3\05ebe286d28063f84ea82b784167a002\transformed\lifecycle-viewmodel-ktx-2.6.1\res
+cd.ghost.genusd.app-core-ktx-1.9.0-2 C:\Users\Ulugbek\.gradle\caches\transforms-3\0b50f5f8527759d0ece34662a7541404\transformed\core-ktx-1.9.0\res
+cd.ghost.genusd.app-emoji2-views-helper-1.2.0-3 C:\Users\Ulugbek\.gradle\caches\transforms-3\0d33d161d06812770ef0daf7696954fe\transformed\emoji2-views-helper-1.2.0\res
+cd.ghost.genusd.app-lifecycle-runtime-2.6.1-4 C:\Users\Ulugbek\.gradle\caches\transforms-3\1925419ac3f85669317967ea4f036caa\transformed\lifecycle-runtime-2.6.1\res
+cd.ghost.genusd.app-core-1.9.0-5 C:\Users\Ulugbek\.gradle\caches\transforms-3\1c1f266c0974a44affcbd80cd101a0d2\transformed\core-1.9.0\res
+cd.ghost.genusd.app-cardview-1.0.0-6 C:\Users\Ulugbek\.gradle\caches\transforms-3\1e3b6f2ddc928ad5916dd2e2e0149c50\transformed\cardview-1.0.0\res
+cd.ghost.genusd.app-activity-1.6.0-7 C:\Users\Ulugbek\.gradle\caches\transforms-3\20cc2be7896031654606128fea9d25b3\transformed\activity-1.6.0\res
+cd.ghost.genusd.app-profileinstaller-1.3.0-8 C:\Users\Ulugbek\.gradle\caches\transforms-3\265b1d6f596f03fb8c745f850c7d2ba9\transformed\profileinstaller-1.3.0\res
+cd.ghost.genusd.app-room-runtime-2.5.2-9 C:\Users\Ulugbek\.gradle\caches\transforms-3\29ae15b0ba5f61447886faac7669b0b8\transformed\room-runtime-2.5.2\res
+cd.ghost.genusd.app-startup-runtime-1.1.1-10 C:\Users\Ulugbek\.gradle\caches\transforms-3\3207e70962904355ff3c750670032f66\transformed\startup-runtime-1.1.1\res
+cd.ghost.genusd.app-swiperefreshlayout-1.2.0-alpha01-11 C:\Users\Ulugbek\.gradle\caches\transforms-3\39cf334ab0b9aa2dcfc0a05edcb6455b\transformed\swiperefreshlayout-1.2.0-alpha01\res
+cd.ghost.genusd.app-savedstate-ktx-1.2.1-12 C:\Users\Ulugbek\.gradle\caches\transforms-3\41950960c99d4f5505747337151c6e66\transformed\savedstate-ktx-1.2.1\res
+cd.ghost.genusd.app-constraintlayout-2.1.4-13 C:\Users\Ulugbek\.gradle\caches\transforms-3\53597f66da5c02cc3bb74d8826dd8546\transformed\constraintlayout-2.1.4\res
+cd.ghost.genusd.app-appcompat-resources-1.6.1-14 C:\Users\Ulugbek\.gradle\caches\transforms-3\589e7967317b92951966d8119d56b2bf\transformed\appcompat-resources-1.6.1\res
+cd.ghost.genusd.app-lifecycle-viewmodel-2.6.1-15 C:\Users\Ulugbek\.gradle\caches\transforms-3\6ac698c1a31327dd4af226af66345c14\transformed\lifecycle-viewmodel-2.6.1\res
+cd.ghost.genusd.app-viewpager2-1.0.0-16 C:\Users\Ulugbek\.gradle\caches\transforms-3\71fb3b90e6798257bcf287133ccaadf5\transformed\viewpager2-1.0.0\res
+cd.ghost.genusd.app-emoji2-1.2.0-17 C:\Users\Ulugbek\.gradle\caches\transforms-3\774143379c116b26949f43929ed7f0da\transformed\emoji2-1.2.0\res
+cd.ghost.genusd.app-lifecycle-livedata-core-2.6.1-18 C:\Users\Ulugbek\.gradle\caches\transforms-3\77aef5e5d0eaf325af117122cebaa9ec\transformed\lifecycle-livedata-core-2.6.1\res
+cd.ghost.genusd.app-drawerlayout-1.1.1-19 C:\Users\Ulugbek\.gradle\caches\transforms-3\7cb39e8da97f550ae67215ff9a343e8d\transformed\drawerlayout-1.1.1\res
+cd.ghost.genusd.app-lifecycle-viewmodel-savedstate-2.6.1-20 C:\Users\Ulugbek\.gradle\caches\transforms-3\7e064563a8b44d014efd1878582ff2f9\transformed\lifecycle-viewmodel-savedstate-2.6.1\res
+cd.ghost.genusd.app-room-ktx-2.5.2-21 C:\Users\Ulugbek\.gradle\caches\transforms-3\81fbd751a0973d836530c34f2b800904\transformed\room-ktx-2.5.2\res
+cd.ghost.genusd.app-fragment-ktx-1.6.0-22 C:\Users\Ulugbek\.gradle\caches\transforms-3\8576ca53a2732157c45c326652e3d0a5\transformed\fragment-ktx-1.6.0\res
+cd.ghost.genusd.app-material-1.9.0-23 C:\Users\Ulugbek\.gradle\caches\transforms-3\8a22add102b089e321629a7b8f87ca31\transformed\material-1.9.0\res
+cd.ghost.genusd.app-lifecycle-process-2.6.1-24 C:\Users\Ulugbek\.gradle\caches\transforms-3\8d4c9920f5abf0a83df56ab155280adc\transformed\lifecycle-process-2.6.1\res
+cd.ghost.genusd.app-glide-4.12.0-25 C:\Users\Ulugbek\.gradle\caches\transforms-3\950294d7103b041b9a2980109742b2c0\transformed\glide-4.12.0\res
+cd.ghost.genusd.app-coordinatorlayout-1.1.0-26 C:\Users\Ulugbek\.gradle\caches\transforms-3\95748881335eeec9250323e003fb5738\transformed\coordinatorlayout-1.1.0\res
+cd.ghost.genusd.app-lifecycle-livedata-core-ktx-2.6.1-27 C:\Users\Ulugbek\.gradle\caches\transforms-3\9d1a2af2bea38ecf8bbe5e1b2879d798\transformed\lifecycle-livedata-core-ktx-2.6.1\res
+cd.ghost.genusd.app-core-runtime-2.2.0-28 C:\Users\Ulugbek\.gradle\caches\transforms-3\a8cec04576e71a0fb62b1fe7d765173f\transformed\core-runtime-2.2.0\res
+cd.ghost.genusd.app-savedstate-1.2.1-29 C:\Users\Ulugbek\.gradle\caches\transforms-3\b74fff512bb40aee638e1663fb9f2135\transformed\savedstate-1.2.1\res
+cd.ghost.genusd.app-recyclerview-1.1.0-30 C:\Users\Ulugbek\.gradle\caches\transforms-3\c036cda9aaf7a8cdc4d7785c86a92e09\transformed\recyclerview-1.1.0\res
+cd.ghost.genusd.app-activity-ktx-1.6.0-31 C:\Users\Ulugbek\.gradle\caches\transforms-3\c0aa7fa6e982243c33120057a970243c\transformed\activity-ktx-1.6.0\res
+cd.ghost.genusd.app-appcompat-1.6.1-32 C:\Users\Ulugbek\.gradle\caches\transforms-3\c1d179f6adeec69b1392de154045aca4\transformed\appcompat-1.6.1\res
+cd.ghost.genusd.app-annotation-experimental-1.3.0-33 C:\Users\Ulugbek\.gradle\caches\transforms-3\c49fc6a397d158759d6cf816b68940c5\transformed\annotation-experimental-1.3.0\res
+cd.ghost.genusd.app-lifecycle-livedata-2.6.1-34 C:\Users\Ulugbek\.gradle\caches\transforms-3\caab660bbb301249a5fb21fd979b99bf\transformed\lifecycle-livedata-2.6.1\res
+cd.ghost.genusd.app-fragment-1.6.0-35 C:\Users\Ulugbek\.gradle\caches\transforms-3\db5af10e454173765b619bdd338efb11\transformed\fragment-1.6.0\res
+cd.ghost.genusd.app-sqlite-2.3.1-36 C:\Users\Ulugbek\.gradle\caches\transforms-3\f372dda0ab8a6d025fb4717d7e5d042f\transformed\sqlite-2.3.1\res
+cd.ghost.genusd.app-transition-1.2.0-37 C:\Users\Ulugbek\.gradle\caches\transforms-3\f97498af1882f802d047a119c6025dc9\transformed\transition-1.2.0\res
+cd.ghost.genusd.app-sqlite-framework-2.3.1-38 C:\Users\Ulugbek\.gradle\caches\transforms-3\ff10be5a576309801185291801a3a3d5\transformed\sqlite-framework-2.3.1\res
+cd.ghost.genusd.app-pngs-39 D:\For work\Android rl projects\CurrencyApp\app\build\generated\res\pngs\release
+cd.ghost.genusd.app-resValues-40 D:\For work\Android rl projects\CurrencyApp\app\build\generated\res\resValues\release
+cd.ghost.genusd.app-packageReleaseResources-41 D:\For work\Android rl projects\CurrencyApp\app\build\intermediates\incremental\release\packageReleaseResources\merged.dir
+cd.ghost.genusd.app-packageReleaseResources-42 D:\For work\Android rl projects\CurrencyApp\app\build\intermediates\incremental\release\packageReleaseResources\stripped.dir
+cd.ghost.genusd.app-merged_res-43 D:\For work\Android rl projects\CurrencyApp\app\build\intermediates\merged_res\release
+cd.ghost.genusd.app-main-44 D:\For work\Android rl projects\CurrencyApp\app\src\main\res
+cd.ghost.genusd.app-release-45 D:\For work\Android rl projects\CurrencyApp\app\src\release\res

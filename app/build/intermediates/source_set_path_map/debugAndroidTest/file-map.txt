@@ -1,0 +1,6 @@
+cd.ghost.genusd.test.app-core-1.5.0-0 C:\Users\ulugg\.gradle\caches\transforms-3\86aa7526f7d7cbee5c0069289c0069f1\transformed\core-1.5.0\res
+cd.ghost.genusd.test.app-annotation-experimental-1.3.0-1 C:\Users\ulugg\.gradle\caches\transforms-3\f5097d32e55434ecf593454500974646\transformed\annotation-experimental-1.3.0\res
+cd.ghost.genusd.test.app-androidTest-2 D:\For work\Android rl projects\CurrencyApp\app\build\generated\res\resValues\androidTest\debug
+cd.ghost.genusd.test.app-mergeDebugAndroidTestResources-3 D:\For work\Android rl projects\CurrencyApp\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+cd.ghost.genusd.test.app-mergeDebugAndroidTestResources-4 D:\For work\Android rl projects\CurrencyApp\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+cd.ghost.genusd.test.app-merged_res-5 D:\For work\Android rl projects\CurrencyApp\app\build\intermediates\merged_res\debugAndroidTest
